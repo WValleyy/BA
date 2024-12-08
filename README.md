@@ -4,7 +4,8 @@ Twitter/X data crawl flow for BA course
 
 Run the code in CrawlKOLs to get the names of KOLs, then update it to GitHub. After that, remove duplicates and finally run the crawl for tweets.
 
-There are 68 keywords
+There are 68 keywords.
+
 Luong: 1-17
 Doanh: 18-34
 De: 36-51
