@@ -12,7 +12,6 @@ async def login():
     # Read username and password from environment variables
     username = os.getenv("USERNAMEE")
     password = os.getenv("PASSWORD")
-
     if not username or not password:
         raise ValueError("USERNAMEE or PASSWORD is not configured in the .env file")
 
