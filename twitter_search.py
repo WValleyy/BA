@@ -64,6 +64,9 @@ def read_keywords_from_file(file_path):
     
 
 # Filter users from all CSV files
+import os
+import pandas as pd
+
 def filter_users(keywords):
     filtered_users = []
 
@@ -77,6 +80,9 @@ def filter_users(keywords):
             df_filtered = df[(df["followers_count"] >= 1000) &
                              ((df["favourites_count"] / df["statuses_count"]).fillna(0) >= 50)]
 
+            # Print the number of users remaining after filtering for the current keyword
+            print(f"Keyword '{keyword}': {len(df_filtered)} users remaining after filtering.")
+
             # Append filtered users to the list
             filtered_users.extend(df_filtered.to_dict(orient="records"))
 
@@ -85,9 +91,12 @@ def filter_users(keywords):
     if filtered_users:
         pd.DataFrame(filtered_users).to_csv(output_file_path, index=False, encoding="utf-8")
         print(f"Filtered users saved to {output_file_path}")
+        print(f"Total filtered users: {len(filtered_users)}")
     else:
         print("No users matched the criteria.")
+
     return output_file_path
+
 
 
 async def crawl_tweets(screen_name,app,):

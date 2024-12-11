@@ -1,20 +1,3 @@
-Web3
-weeb3
-Decentralized
-Blockchain
-Cryptocurrency
-Crypto
-DeFi 
-NFT 
-Non-Fungible Token
-Dapp 
-Decentralized Application
-Smart contract
-Ethereum
-Solana
-Solidity
-Rust
-zk-SNARK
 EVM 
 Ethereum Virtual Machine
 Cross-chain
@@ -32,36 +15,3 @@ DEX
 Staking Rewards
 Lending Protocols
 Stablecoin
-On-chain Trading
-Cosmos
-Smart Wallet
-Multisig Wallet
-Web3Gaming
-Decentralization
-CryptoInvesting
-DeFiProtocols
-TokenEngineering
-SHIB
-Shiba Inu
-DAI
-Dai
-Render Token	
-ARB
-Arbitrum
-Mantle
-Worldcoin
-Ondo
-USDT
-Tether			
-BNB
-DOGE
-Dogecoin
-Cardano		
-USDC
-USD Coin
-TRX
-TRON
-AVAX
-Avalanche
-Chainlink
-Polkadot
