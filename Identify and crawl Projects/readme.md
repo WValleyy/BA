@@ -1,4 +1,4 @@
-# Twitter KOLs Crawler
+# Twitter Projects Crawler
 
 This project crawls Twitter to find Key Projects from a given list of their Twitter username. It fetches detailed user information and saves the results into a CSV file.
 
