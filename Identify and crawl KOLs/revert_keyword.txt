@@ -1,6 +1,0 @@
-bot
-inc
-company
-finance
-dex
-labs
