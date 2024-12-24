@@ -1,7 +1,7 @@
 # Project Report: Twitter KOLs and Telegram Contributors Recommendation System
 
 ## Project Overview
-This project aims to build a recommendation system for Twitter Key Opinion Leaders (KOLs) and Telegram contributors, particularly for Web3 projects. The system will help identify and recommend suitable KOLs and contributors based on their activities and engagement on social media platforms like Twitter and Telegram.
+This project aims to build a recommendation system for Twitter Key Opinion Leaders (KOLs), particularly for Web3 projects. 
 
 ## Members
 - **Nguyen Tien Doanh** (Student ID: 20214881)
@@ -19,7 +19,7 @@ This project aims to build a recommendation system for Twitter Key Opinion Leade
 ## Folder Structure
 
 ### 1. `crawl_data/`
-This folder contains the implementation of a data crawling workflow for extracting information from social media platforms (Twitter, Telegram, etc.). The objective is to gather relevant data for building a recommendation system. The workflow extracts data such as user profiles, posts, engagement metrics, and other relevant information to train the recommendation model.
+This folder contains the implementation of a data crawling workflow for extracting information from social media platforms (Twitter, Telegram, etc.). The objective is to gather relevant data for building a recommendation system. The workflow extracts data such as user profiles, posts and other relevant information to train the recommendation model.
 
 
 
